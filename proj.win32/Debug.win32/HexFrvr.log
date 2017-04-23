@@ -1,0 +1,80 @@
+﻿生成启动时间为 2017/4/23 11:38:46。
+     1>项目“D:\game-project\WhiteBlock\HexFrvr\proj.win32\HexFrvr.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Vs2013\VC\bin\CL.exe /c /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\external" /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\extensions" /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\\" /I..\Classes /I.. /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\cocos" /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\cocos\platform\win32" /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\MapLayer.cpp
+         MapLayer.cpp
+     1>d:\game-project\whiteblock\cocos2d\cocos\base\ccutils.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       PreLinkEvent:
+         if not exist "D:\game-project\WhiteBlock\proj.win32\Debug.win32\" mkdir "D:\game-project\WhiteBlock\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\game-project\WhiteBlock\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "D:\game-project\WhiteBlock\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         E:\Vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\game-project\WhiteBlock\proj.win32\Debug.win32\HexFrvr.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\game-project\WhiteBlock\proj.win32\Debug.win32\\" /LIBPATH:"D:\game-project\WhiteBlock\proj.win32\Debug.win32\\" /LIBPATH:"E:\Vs2013\Visual Leak Detector\lib\Win32" opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\game-project\WhiteBlock\proj.win32\Debug.win32\HexFrvr.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\game-project\WhiteBlock\proj.win32\Debug.win32\HexFrvr.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Block.obj
+         Debug.win32\BlockShape.obj
+         Debug.win32\GameOverLayer.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\MapLayer.obj
+         Debug.win32\ShapeLayer.obj
+         Debug.win32\StatusLayer.obj
+         Debug.win32\main.obj
+         "D:\game-project\WhiteBlock\proj.win32\Debug.win32\libcocos2d.lib"
+         "D:\game-project\WhiteBlock\proj.win32\Debug.win32\libAudio.lib"
+         "D:\game-project\WhiteBlock\proj.win32\Debug.win32\libExtensions.lib"
+         "D:\game-project\WhiteBlock\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“libcmt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“libcmtd.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“msvcrt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>libjpeg.lib(jcapimin.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcapimin.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcapistd.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcapistd.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcarith.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcarith.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcparam.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcparam.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatadst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdatadst.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcinit.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcinit.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmaster.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmaster.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmarker.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmarker.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmainct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcmainct.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcprepct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcprepct.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccoefct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jccoefct.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccolor.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jccolor.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcsample.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcsample.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jchuff.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jchuff.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcdctmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcdctmgr.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctfst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctfst.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctflt.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctflt.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctint.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jfdctint.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapimin.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdapimin.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapistd.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdapistd.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdarith.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdarith.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatasrc.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdatasrc.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmaster.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmaster.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdinput.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdinput.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmarker.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmarker.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdhuff.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdhuff.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmainct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmainct.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcoefct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdcoefct.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdpostct.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdpostct.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jddctmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jddctmgr.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctfst.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctfst.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctflt.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctflt.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctint.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jidctint.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdsample.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdsample.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcolor.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdcolor.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant1.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jquant1.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant2.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jquant2.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmerge.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jdmerge.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jaricom.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jaricom.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcomapi.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jcomapi.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jutils.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jutils.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jerror.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jerror.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemmgr.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jmemmgr.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemnobs.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“libjpeg.lib(jmemnobs.obj)”或在“D:\game-project\WhiteBlock\proj.win32\Debug.win32\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         HexFrvr.vcxproj -> D:\game-project\WhiteBlock\proj.win32\Debug.win32\HexFrvr.exe
+     1>已完成生成项目“D:\game-project\WhiteBlock\HexFrvr\proj.win32\HexFrvr.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.17
